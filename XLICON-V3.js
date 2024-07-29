@@ -15,7 +15,7 @@
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 //*
-//  * @project_name : XLICON-V3-MD
+//  * @project_name : OSIAS TECH
 //  * @author : salmanytofficial
 //  * @youtube : https://www.youtube.com/@s4salmanyt
 //   * @description : XLICON-V3 ,A Multi-functional whatsapp user bot.
@@ -420,7 +420,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
             contextInfo: {
               externalAdReply: {
                 showAdAttribution: true,
-                title: botname,
+                title: OSIAS,
                 body: ownername,
                 previewType: "PHOTO",
                 thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
